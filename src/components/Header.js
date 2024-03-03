@@ -34,7 +34,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  top: 0;
+  top: 1;
   left 0;
   right: 0;
 `
