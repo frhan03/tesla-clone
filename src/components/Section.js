@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import MenuIcon from '@mui/icons-material/Menu';
+
 
 function Section({ title, description, leftBtnText, rightBtnText, backgroundImg }) {
   return (
@@ -29,6 +29,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
 export default Section
 
 const Wrap = styled.div`
+
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -87,3 +88,4 @@ const Buttons = styled.div`
 
 `
 
+ 

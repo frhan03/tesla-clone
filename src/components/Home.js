@@ -13,13 +13,6 @@ function Home() {
                 rightBtnText="Existing Inventory"
             />
             <Section
-                title="Model Y"
-                description="Order online for touchup delivery"
-                backgroundImg="model-y.jpg"
-                leftBtnText="Custom order"
-                rightBtnText="Existing Inventory"
-            />
-            <Section
                 title="Model 3"
                 description="Order online for touchup delivery"
                 backgroundImg="model-3.jpg"
@@ -32,7 +25,16 @@ function Home() {
                 backgroundImg="model-x.jpg"
                 leftBtnText="Custom order"
                 rightBtnText="Existing Inventory"
+            />            
+            <Section
+                title="Model Y"
+                description="Order online for touchup delivery"
+                backgroundImg="model-y.jpg"
+                leftBtnText="Custom order"
+                rightBtnText="Existing Inventory"
             />
+
+
             <Section
                 title="Lowest Cost Solar Panel"
                 description="Money-back guarantee"
@@ -61,4 +63,5 @@ export default Home
 
 const Container = styled.div`
     height: 100vh;
+  
 `
